@@ -15,6 +15,8 @@ Menu NUI moderne et épuré pour régler en live la densité des véhicules, pi�
 - Quand tu mets un slider à 0 : tout ce type disparaît
 - Quand tu remets >0 : spawn naturel et fluide (pas de blocage !)
 
+
+
 ### Installation
 
 1. **Copier tout le dossier** dans `resources/[admin]/menu_traffic`
