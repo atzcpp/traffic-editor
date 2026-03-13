@@ -29,7 +29,7 @@ Config.Languages = {
         only_founder = "You are not a founder!",
         language = "Language",
         menu_icon = "🛣️ Traffic Density",
-        menu_credit = "by atzcpp - modern UI",
+        menu_credit = "by atzcpp",
     },
     ['fr'] = {
         title = "Gestion de la densité",
@@ -45,7 +45,8 @@ Config.Languages = {
         only_founder = "Vous n'êtes pas fondateur.",
         language = "Langue",
         menu_icon = "🛣️ Densité circulation",
-        menu_credit = "par atzcpp - UI moderne",
+        menu_credit = "par atzcpp",
     }
 }
+
 Config.DefaultLang = "fr"
