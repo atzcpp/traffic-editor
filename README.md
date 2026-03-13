@@ -1,4 +1,7 @@
-# Density Management NUI Menu (Pro/FR-EN) FiveM
+# TRAFFIC EDITOR
+
+# AzCore
+https://discord.gg/GGc5Z8vgUW
 
 **ENGLISH BELOW**
 
