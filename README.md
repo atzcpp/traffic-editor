@@ -15,7 +15,10 @@ Menu NUI moderne et épuré pour régler en live la densité des véhicules, pi�
 - Quand tu mets un slider à 0 : tout ce type disparaît
 - Quand tu remets >0 : spawn naturel et fluide (pas de blocage !)
 
+/fr (capture du menu)
 https://cdn.discordapp.com/attachments/1481842644509397115/1481845604429594705/image.png?ex=69b4cbc3&is=69b37a43&hm=09081535b7ed5b2a12590598d5331497144e83d37085db41dda6eb50e74eae11&
+
+/en (screenshot menu)
 https://cdn.discordapp.com/attachments/1481842644509397115/1481845604886909039/image.png?ex=69b4cbc3&is=69b37a43&hm=6fee6abb4a824fc14a0f68b9e9c66e0d868bc5f97cf9e7ac55009034bd2d1fc3&
 
 ### Installation
