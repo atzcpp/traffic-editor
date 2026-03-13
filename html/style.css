@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;400&display=swap');
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: transparent;
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+#container {
+    position: fixed;
+    top: 0; left: 0; width: 100vw; height: 100vh;
+    z-index: 99999;
+    background: rgba(18,18,24,0.65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+#menu {
+    background: #191A1D;
+    color: #ececec;
+    padding: 34px 32px 14px 32px;
+    border-radius: 15px;
+    min-width: 330px;
+    min-height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border: 1.3px solid #222328;
+    box-sizing: border-box;
+}
+#menu h1 {
+    text-align: center;
+    font-size: 1.19em;
+    font-weight: 700;
+    margin-bottom: 19px;
+    color: #f6f6fb;
+    letter-spacing: .02em;
+    display: flex; align-items: center; justify-content: center;
+    gap: 10px;
+}
+#lang-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    font-size: 0.98em;
+    justify-content: center;
+}
+.group {
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.group label {
+    flex: 2.5;
+    font-size: 1em;
+    font-weight: 500;
+    padding-right: 9px;
+    color: #e8eaff;
+}
+.group .slider {
+    flex: 4;
+    accent-color: #5865f2;
+    margin: 0 7px;
+    height: 7px;
+    border-radius: 12px;
+    cursor: pointer;
+    outline: none;
+    background: #24242C;
+    border: none;
+}
+.group span {
+    flex: 1.2;
+    font-weight: 700;
+    min-width: 42px;
+    text-align: right;
+    color: #a2bad6;
+    font-size: 0.97em;
+}
+.button-row {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+.button-row .btn-glass {
+    flex: 1 1 0px;
+    padding: 11px 0;
+    border: none;
+    background: #343547;
+    color: #eaeaeb;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 8px;
+    letter-spacing: 0.01em;
+    outline: none;
+    cursor: pointer;
+    transition: background 0.14s, color 0.13s, transform 0.12s;
+}
+.button-row .btn-glass:hover, .button-row .btn-glass:focus {
+    color: #fff;
+    background: #5865f2;
+    transform: translateY(-2px) scale(1.04);
+}
+.button-row .btn-glass:active {
+    background: #23244a;
+    color: #d7e1fa;
+    transform: scale(0.98);
+}
+.credit {
+    font-size:0.81em; 
+    color:#b5bddc; 
+    text-align:center; 
+    margin-top:15px;
+    letter-spacing:0.01em;
+}
+select {
+    background: #23243c;
+    color: #ececec;
+    font-size: 1em;
+    border: 1px solid #23243c;
+    border-radius: 5px;
+    padding: 3px 8px;
+    outline: none;
+}
+::-webkit-scrollbar { width: 0; background: transparent; }
